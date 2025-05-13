@@ -1,0 +1,18 @@
+/*
+SOLUK PEMBE MAVİ TEMA
+Pembe: #F07167
+Açık pembe: #FED9B7
+Limoni: #FDFCDC
+Mavi: #0081A7
+Bi tık daha açık mavi: #00AFB9
+*/
+
+html, body
+{
+    overflow: hidden;
+}
+
+a
+{
+    text-decoration: none;
+}

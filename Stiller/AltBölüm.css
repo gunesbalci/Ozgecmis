@@ -1,0 +1,43 @@
+.alt-bölüm
+{
+    display: block;
+    background: transparent;
+    position: fixed;
+    height: 12vh;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.alt-bölüm-buton
+{
+    display: block;
+    position: relative;
+    float: left;
+    bottom: 0;
+
+    height: 7vh;
+    width: 10%; /*84*/
+    margin: 5vh 0 0 1.8%;
+    padding: 0.5% 1%;
+    border-radius: 16px 16px 0 0;
+
+    background-color: rgb(112 66 171 / 80%);
+    color: #e3d3eb;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.5);
+
+    font-weight: 700;
+    font-size: 150%;
+    transition: all 0.3s ease;
+}
+
+#alt-bölüm-giriş:hover, #alt-bölüm-beceri:hover, #alt-bölüm-proje:hover
+, #alt-bölüm-eğitim:hover, #alt-bölüm-iş:hover, #alt-bölüm-dil:hover, #alt-bölüm-iletişim:hover
+{
+    height: 11vh;
+    margin: 1vh 0 0 1.8%;
+}
