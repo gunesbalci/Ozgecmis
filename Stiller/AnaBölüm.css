@@ -37,222 +37,7 @@
     
     text-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
-/* GİRİŞ ------------------------------------------------------ */
-.ana-bölüm-giriş-içerik
-{
-    height: 40vh;
-    width: 60vw;
-    margin: 0vh 14vw 20vh;
-    padding: 0 6vw;
 
-    font-size: 180%;
-    font-weight: 600;
-
-    text-align: justify;
-    align-content: center;
-    font-weight: normal;
-    line-height: 1.4;
-
-    background-color: #D4BBE0;
-    color: #0d0d0d;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.75);
-
-    border-radius: 16px;
-}
-
-#ana-bölüm-giriş-başlık
-{
-    height: 40vh;
-    padding: 0;
-    text-transform: uppercase;
-    align-content: center;
-}
-/* TEKNİK BECERİLER ------------------------------------------------------ */
-.ana-bölüm-teknik-beceriler-tablo
-{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto); 
-    gap: 15vh 10vw;
-
-    margin: 4vh 10vw;
-    width: 80vw;
-    height: 47vh;
-}
-
-.ana-bölüm-teknik-beceriler-beceri
-{
-    height: 16vh;
-    width: 20vw;
-    padding: 0;
-
-    background-color: transparent;
-    color: #D4BBE0;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.75);
-
-    border-radius: 16px;
-
-    font-weight: 600;
-    font-size: 140%;
-}
-
-.ana-bölüm-teknik-beceriler-ara-başlık
-{
-    position: relative;
-
-    height: 8vh;
-    padding: 1vh;
-
-    font-size: 160%;
-    font-weight: 900;
-
-    background-color: #D4BBE0;
-    color: #292929;
-    
-    border-radius: 16px 16px 0 0;
-}
-
-.ana-bölüm-teknik-beceriler-içerik
-{
-    height: 6vh;
-    align-content: center;
-}
-/* PROJELER ------------------------------------------------------ */
-.ana-bölüm-projeler-içerikler
-{    
-    width: 90vw;
-    white-space: nowrap;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    margin: 1vh 5vw;
-}
-
-.ana-bölüm-projeler-butonlar
-{
-    width: 90%;
-    height: 56vh;
-    z-index: 5;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, auto);
-    gap: 0 90%;
-    position: absolute;
-    pointer-events: none;
-}
-
-.ana-bölüm-projeler-buton
-{
-    color: #D4BBE0;
-    width: 100%;
-    height: 56vh;
-    font-size: 500%;
-    font-weight: 900;
-    text-align: center;
-    align-content: center;
-    pointer-events: auto;
-}
-
-.ana-bölüm-projeler-içerik
-{
-    scroll-snap-align: center;
-    /*58*/
-    height: 56vh;
-    width: 90%;
-    margin: auto 5%;
-    display: inline-block;
-}
-
-.ana-bölüm-projeler-içerik-yazı
-{
-    background-color: #D4BBE0;
-    color: black;
-    border-radius: 16px 0 0 16px;
-    width: 50%;
-    height: 100%;
-    display: block;
-    position: relative;
-    float: left;
-    font-weight: 500;
-    font-size: 160%;
-}
-
-.ana-bölüm-projeler-ismi
-{
-    font-weight: 900;
-    font-size: 180%;
-    margin: 2% 2%;
-    position: relative;
-    white-space: normal;
-    height: 34%;
-    align-content: center;
-}  
-
-.ana-bölüm-projeler-tarih
-{
-    position: relative;
-    margin: 2% auto;
-    height: 6%;
-}
-
-.ana-bölüm-projeler-açıklama
-{
-    position: absolute;
-    text-align: justify;
-    white-space: normal;
-    margin: 2% 6%;
-    height: 36%;
-}
-
-.ana-bölüm-projeler-github
-{
-    display: block;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    height: 16%;
-    align-content: center;
-}
-
-.ana-bölüm-projeler-github a
-{
-    color: black;
-}
-
-.ana-bölüm-projeler-github a:hover
-{
-    color: rgb(120, 15, 190);
-}
-
-.ana-bölüm-projeler-içerik-medya
-{
-    border-radius: 0 16px 16px 0;
-    width: 50%;
-    height: 100%;
-    display: block;
-    position: relative;
-    float: left;
-}
-
-.ana-bölüm-projeler-içerik-medya img
-{
-    border-radius: 0 16px 16px 0;
-    width: 99%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.ana-bölüm-projeler-içerikler::-webkit-scrollbar 
-{
-  display: none;
-}
-
-.ana-bölüm-projeler-içerikler 
-{
-  -ms-overflow-style: none;  
-  scrollbar-width: none;  
-}
 /* EĞİTİM & İŞ DENEYİMİ ------------------------------------------------------ */
 .ana-bölüm-eğitim-içerik, .ana-bölüm-iş-deneyimi-içerik
 {
@@ -390,4 +175,37 @@
 .ana-bölüm-iletişim-metin a:hover
 {
     color: #b643f0;
+}
+
+@media only screen and (orientation: portrait)
+{
+    body
+    {
+        font-size: xx-small;
+    }
+
+    .ana-bölüm
+    {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .alt-bölüm::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+    .alt-bölüm
+    {
+        display: none;
+        visibility: hidden;
+    }
+
+    .ana-bölüm-sayfa-başlık:not(#ana-bölüm-giriş-başlık)
+    {
+        height: 8vh;
+        font-size: 600%;
+        margin: 0;
+        padding: 2vh 0 0;
+    }
 }

@@ -1,0 +1,84 @@
+/* TEKNİK BECERİLER ------------------------------------------------------ */
+.ana-bölüm-teknik-beceriler-tablo
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 15vh 10vw;
+
+    margin: 4vh 10vw;
+    width: 80vw;
+    height: 47vh;
+    padding: 0;
+}
+
+.ana-bölüm-teknik-beceriler-beceri
+{
+    height: 16vh;
+    width: 20vw;
+    padding: 0;
+
+    background-color: transparent;
+    color: #D4BBE0;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.75);
+
+    border-radius: 16px;
+
+    font-weight: 600;
+    font-size: 140%;
+}
+
+.ana-bölüm-teknik-beceriler-ara-başlık
+{
+    position: relative;
+
+    height: 8vh;
+    padding: 1vh;
+
+    font-size: 160%;
+    font-weight: 900;
+
+    background-color: #D4BBE0;
+    color: #292929;
+    
+    border-radius: 16px 16px 0 0;
+}
+
+.ana-bölüm-teknik-beceriler-içerik
+{
+    height: 6vh;
+    align-content: center;
+}
+
+@media only screen and (orientation: portrait)
+{
+    .ana-bölüm-teknik-beceriler-tablo
+    {
+        gap: 4vh 3vw;
+        margin: 5vh 5vw;
+        width: 90vw;
+        height: 80vh;
+        padding: 0;
+    }
+
+    .ana-bölüm-teknik-beceriler-beceri
+    {
+        height: 38vh;
+        width: 28vw;
+        padding: 0;
+    }
+
+    .ana-bölüm-teknik-beceriler-ara-başlık
+    {
+        height: 12vh;
+        padding: 2vh 1vw;
+        font-size: 170%;
+    }
+
+    .ana-bölüm-teknik-beceriler-içerik
+    {
+        font-size: x-large;
+        font-weight: 500;
+        padding: 1vh 1vw;
+    }
+}
