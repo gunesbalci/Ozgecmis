@@ -33,6 +33,7 @@
     font-weight: 700;
     font-size: 150%;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 #alt-bölüm-giriş:hover, #alt-bölüm-beceri:hover, #alt-bölüm-proje:hover

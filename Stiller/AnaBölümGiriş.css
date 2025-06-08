@@ -4,7 +4,7 @@
     height: 40vh;
     width: 60vw;
     margin: 0vh 14vw 20vh;
-    padding: 0 6vw;
+    padding: 2vh 6vw;
 
     font-size: 180%;
     font-weight: 600;
@@ -33,9 +33,9 @@
 {
     .ana-bölüm-giriş-içerik
     {
-        height: 40vh;
+        height: 36vh;
         width: 90vw;
-        margin: 0vh 4vw 4vh;
+        margin: 2vh 4vw 6vh;
         padding: 0 1vw;
 
         font-size: large;
@@ -49,6 +49,6 @@
     {
         height: 56vh;
         padding: 0;
-        font-size: 700%;
+        font-size: 600%;
     }
 }
