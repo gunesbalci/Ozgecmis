@@ -82,50 +82,7 @@
     background-color: #1d1d1d;
     color: #D4BBE0;
 }
-/* DİL & HOBİLER ------------------------------------------------------ */
-#ana-bölüm-dil, #ana-bölüm-hobiler
-{
-    margin: auto;
-    display: block;
-    position: relative;
-    float: left;
 
-    width: 50%;
-    height: 92vh;
-}
-
-.ana-bölüm-dil-içerik, .ana-bölüm-hobiler-içerik
-{
-    margin: 8vh 15vw 24vh;
-
-    width: 20vw;
-    height: 40vh;
-    border-radius: 16px;
-
-    background-color: #D4BBE0;
-    color: #292929;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-
-    font-size: x-large;
-    font-weight: bold;
-    text-align: left;
-    align-content: center;
-}
-
-.ana-bölüm-dil-dil, .ana-bölüm-hobiler-hobi
-{
-    margin: 2vh 2vw;
-
-    width: 16vw;
-    height: 6vh;
-    border-radius: 16px;
-
-    background-color: hsl(281, 37%, 68%);
-    color: #0d0d0d;
-
-    align-content: center;
-    text-align: center;
-}
 /*İLETİŞİM-------------------------------------------------*/
 .ana-bölüm-iletişim-içerik
 {
@@ -204,7 +161,7 @@
     .ana-bölüm-sayfa-başlık:not(#ana-bölüm-giriş-başlık)
     {
         height: 8vh;
-        font-size: 600%;
+        font-size: -webkit-xxx-large;
         margin: 0;
         padding: 2vh 0 0;
     }

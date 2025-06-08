@@ -3,7 +3,7 @@
     display: block;
     background: transparent;
     position: fixed;
-    height: 12vh;
+    height: 13vh;
     width: 100%;
     bottom: 0;
     right: 0;
@@ -20,7 +20,7 @@
     float: left;
     bottom: 0;
 
-    height: 7vh;
+    height: 8vh;
     width: 10%; /*84*/
     margin: 5vh 0 0 1.8%;
     padding: 0.5% 1%;

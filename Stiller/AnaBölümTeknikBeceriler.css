@@ -75,14 +75,15 @@
     .ana-bölüm-teknik-beceriler-ara-başlık
     {
         height: 12vh;
-        padding: 2vh 1vw;
-        font-size: 170%;
+        padding: 1vh 1vw;
+        font-size: medium;
     }
 
     .ana-bölüm-teknik-beceriler-içerik
     {
-        font-size: x-large;
+        font-size: large;
         font-weight: 500;
         padding: 1vh 1vw;
+        line-height: 1.4;
     }
 }

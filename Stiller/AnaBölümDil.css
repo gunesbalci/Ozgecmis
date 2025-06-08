@@ -1,0 +1,67 @@
+/* DİL  ------------------------------------------------------ */
+#ana-bölüm-dil
+{
+    margin: auto;
+    display: block;
+
+    width: 50%;
+    height: 92vh;
+}
+
+.ana-bölüm-dil-içerik
+{
+    margin: 8vh 15vw 24vh;
+
+    width: 20vw;
+    height: 40vh;
+    border-radius: 16px;
+
+    background-color: #D4BBE0;
+    color: #292929;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    align-content: center;
+}
+
+.ana-bölüm-dil-dil
+{
+    margin: 2vh 2vw;
+
+    width: 16vw;
+    height: 6vh;
+    border-radius: 16px;
+
+    background-color: hsl(281, 37%, 68%);
+    color: #0d0d0d;
+
+    align-content: center;
+    text-align: center;
+}
+
+@media only screen and (orientation: portrait)
+{
+    #ana-bölüm-dil
+    {
+        width: 80%;
+        height: 70vh;
+    }
+
+    .ana-bölüm-dil-içerik
+    {
+        margin: 20vh 0;
+
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .ana-bölüm-dil-dil
+    {
+        margin: 3vh 10vw;
+
+        width: 60vw;
+        height: 14vh;
+    }
+}
