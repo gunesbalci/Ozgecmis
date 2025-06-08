@@ -1,0 +1,11 @@
+.resim
+{
+    position: sticky;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.resim img
+{
+    width: 10vw;
+}
